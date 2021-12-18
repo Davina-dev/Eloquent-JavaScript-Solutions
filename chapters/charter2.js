@@ -74,7 +74,7 @@ for (let n = 1; n <= 100; n++) {
 for (i = 0; i < 8; i++) {
   i % 2 == 0 ? console.log(" # # # #") : console.log("# # # #");
 }
-  //otra forma encontrada:
+  //otra forma 
  for (let string = '#'; string.length != 7; string += '#') {
   console.log(string);
 }
