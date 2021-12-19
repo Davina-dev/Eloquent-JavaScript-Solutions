@@ -3,7 +3,7 @@ let ListaCD=
 [
     {
         img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLI5_xFQd7qK3nY1gf6xVFPaOekvlYHNoqyQ&usqp=CAU",
-        title:"💛  Intro",
+        title:"💛 1- Intro",
     },
     {
         img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLI5_xFQd7qK3nY1gf6xVFPaOekvlYHNoqyQ&usqp=CAU",

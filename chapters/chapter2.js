@@ -33,7 +33,7 @@ let n = 9;
   }else console.log( `${n} no es divisible de 3, ni de 5`);
 
   
-    // 2 - Clever Solution
+    // 2 - Clever Solution encontrada
 for (let n = 1; n <= 100; n++) {
  
   let output = '';
@@ -49,22 +49,6 @@ for (let n = 1; n <= 100; n++) {
   console.log(output || n);    
 }
 
-/*no funciona
-  switch (n) {
-    case (n % 3 == 0 && n % 5 == 0):
-      console.log("bizz-buzz") ;
-      break;
-    case (n % 3 == 0):
-      console.log("bizz") ;
-      break;
-    case (n % 5 == 0):
-      console.log("buzz") ;
-      break;
-    default:
-      console.log( `${n} no es divisible de 3, ni de 5`);
-      break;
-  }
-  */
 
 
 
