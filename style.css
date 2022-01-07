@@ -1,14 +1,17 @@
-html,
-body {
-  position: relative;
-  height: 100%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 body {
-  background: rgb(15, 14, 14);
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
+  background: rgb(245, 245, 205);
+  
+  font-size: 17px;
+  color: rgb(24, 23, 23);
   margin: 0;
   padding: 0;
 }
@@ -38,3 +41,173 @@ body {
  margin: 10px;
   }
   
+
+  .hero {
+    background-image: 
+      url("https://www.enwallpaper.com/wp-content/uploads/2021/02/264c428b5d9b52af7c367f7a938a8a6e.png");
+    width: 100%;
+    height: 380px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    
+  }
+  
+  .textos-hero {
+    height: 300px;
+    color: rgba(195, 188, 163, 0.849);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .textos-hero h1 {
+    font-size: 60px;
+    color: rgb(240, 240, 209);
+    text-shadow:  -9px 0 0.8em olive;
+  
+  }
+  
+  .textos-hero p {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .textos-hero a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    background: #757477;
+    border-radius: 8px;
+    color: #fff;
+  }
+  
+  .svg-hero {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+ 
+
+  .title{
+    margin-bottom: 10px;
+    text-align: center;
+   text-shadow: 3px 2px 0.3rem rgb(206, 160, 118), -1em 0 0.4em olive;
+  }
+  
+
+  .content-cards {
+  
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    display: flex;
+    border-radius: 20px;
+    background: rgb(0, 0, 0);
+    width: 90%;
+    text-align: center;
+    height: 400px;
+    transform: scale(1);
+    transition: transform 0.6s;
+  }
+ 
+  .card:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+  }
+  .cardNotes{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    background: rgb(0, 0, 0);
+    width: 90%;
+    text-align: center;
+    height: 400px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.596);
+
+  }
+  .notes{
+    margin-top: 50px;
+    justify-content: center;
+    border-radius: 20px;
+    background: rgb(0, 0, 0);
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 4px 0 rgba(58, 57, 56, 0.493);
+   }
+  .logo_in{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+  }
+  .logo_in img{
+  
+    width: 50px;
+  }
+    
+
+  
+  
+  
+ 
+  @media screen and (max-width: 800px) {
+    .textos-hero h1 {
+      text-align: center;
+      font-size: 50px;
+    }
+  
+    .titulo {
+      font-size: 35px;
+    }
+  
+  
+    .website {
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .website img {
+      width: 100%;
+    }
+  
+    
+  
+    .card {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+  
+  }
+  
+  @media screen and (max-width:400px){
+    .titulo,
+    .textos-hero h1{
+        font-size: 30px;
+    }
+  
+    .textos-hero p{
+        font-size: 20px;
+        text-align: center;
+    }
+  
+    .card{
+        height: 380px;
+    }
+  
+    .website .contenedor-textos-main{
+        margin-bottom: 30px;
+    }
+  
+  }

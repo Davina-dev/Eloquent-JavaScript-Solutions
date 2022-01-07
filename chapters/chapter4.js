@@ -1,6 +1,6 @@
 //  Sesión 3: arrays
 //Las propiedades que contienen funciones generalmente son llamadas metodos del valor al que pertenecen. Como en, “toUpperCase es un método de string”.
-//Los arrays son, entonces, solo un tipo de objeto especializado para almacenar secuencias de cosas. 
+//Los arrays son un tipo de objeto especializado para almacenar secuencias de cosas. 
 
 
 // EJERCICIOS
