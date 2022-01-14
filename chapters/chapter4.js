@@ -2,7 +2,7 @@
 
 
 
-//ej1:La suma de un rango
+//ej1:La suma de un rango.
 
 
 function rango(inicio, fin, ordenDePaso = inicio <= fin ? 1 : -1) {
