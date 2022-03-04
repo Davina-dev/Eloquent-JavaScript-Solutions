@@ -14,7 +14,7 @@ console.log(minNumber(9, 3));
 //no es recursivo, no es lo que piden
 function numberEven(nEntero) {
   let isEven = true;
-  if (nEntero % 2 == 0) {
+  if (nEntero % 2 === 0) {
     console.log(isEven);
   } else {
     console.log(!isEven);
@@ -37,10 +37,10 @@ numEntero(-77);
 //recursivo
 
 function esPar(n){   
-  if(n==0){
+  if(n===0){
     return true;
   };
-  if(n==1){
+  if(n===1){
     return false;
   } 
   return (esPar(n-= 2));
@@ -74,7 +74,7 @@ function contarCaracteres(string, char){
   let conteo = 0 ;
 
     for(i=0; i< string.length; i++){
-      if(string[i] == char){
+      if(string[i] === char){
         conteo++;
       }
     }

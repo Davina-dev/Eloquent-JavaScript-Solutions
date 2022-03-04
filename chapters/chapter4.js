@@ -89,3 +89,7 @@ function igualdadProfunda(a, b) {
   
   
 console.log(igualdadProfunda(object, object));
+
+
+
+
