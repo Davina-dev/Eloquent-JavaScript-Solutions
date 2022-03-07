@@ -23,7 +23,7 @@ if (n % 3 === 0 && n % 5 === 0) {
   console.log('buzz')
 } else console.log(`${n} no es divisible de 3, ni de 5`)
 
-// 2 - Clever Solution encontrada
+// 2 - Clever Solution 
 for (let n = 1; n <= 100; n++) {
   let output = ''
 
